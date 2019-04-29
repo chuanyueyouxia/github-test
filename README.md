@@ -1,4 +1,11 @@
+置顶：
+经典IT资源的中文翻译
+https://github.com/oldratlee/translations
 
+Git工作流指南
+https://github.com/oldratlee/translations/tree/master/git-workflows-and-tutorials
+
+---------------------------------------
 基础：
 
 GitHub Desktop图文教程 - 简书
