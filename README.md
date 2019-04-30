@@ -5,6 +5,9 @@ https://github.com/oldratlee/translations
 Git工作流指南
 https://github.com/oldratlee/translations/tree/master/git-workflows-and-tutorials
 
+GitHub 第一坑：换行符自动转换 - 文章 - 伯乐在线
+http://blog.jobbole.com/46200/
+
 ---------------------------------------
 基础：
 
