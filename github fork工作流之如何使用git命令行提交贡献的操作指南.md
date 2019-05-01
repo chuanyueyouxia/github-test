@@ -67,6 +67,8 @@ git status    #查看项目的当前状态
 
 git add *     #或者git add .添加文件到缓存
 
+git rm 文件名.扩展名     #移除文件,但是我不知道怎么打出"包含空格的文件名"！！！所以相关操作还是放在github desktop(github桌面端)或者git Gui(git图形界面)里比较靠谱
+
 git status    #再次查看项目的当前状态，确保所有改动文件添加到缓存
 
 git commit -m 'test```'  #记录缓存内容的快照并提交注释
