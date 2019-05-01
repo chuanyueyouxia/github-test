@@ -12,6 +12,14 @@
 
 如果你配置了ssh密钥，可以点下"use SSH",复制里面的链接得到"git@github.com:你的github帐号/仓库名称.git" 这样格式的https链接。
 
+git clone https://github.com/你的github帐号/仓库名称.git
+
+或者 
+
+git clone git@github.com:你的github帐号/仓库名称.git
+
+上述操作将拷贝该项目的master主分支，可能使用github desktop(github桌面端)或者git Gui(git图形界面)可以把其他分支也拷贝到本地。
+
 ----------------------------------
 打开git Bash。
 
@@ -24,14 +32,6 @@ cd /f/code/githubtest #其中f为F盘小写，参考这个格式，调整输入�
 或者也可以直接在克隆好的本地目录文件夹右击的菜单里点击“git Bash here”。
 
 也可以github desktop(github桌面端)或者git Gui(git图形界面)里找到打开命令行的按钮，这样命令行会自动切换到本地仓库的文件夹
-
-git clone https://github.com/你的github帐号/仓库名称.git
-
-或者 
-
-git clone git@github.com:你的github帐号/仓库名称.git
-
-上述操作将拷贝该项目的master主分支，可能使用github desktop(github桌面端)或者git Gui(git图形界面)可以把其他分支也拷贝到本地。
 
 ----------------------------------
 git remote -v #查看当前的远程仓库地址
@@ -69,7 +69,7 @@ git add *     #或者git add .添加文件到缓存
 
 git rm 文件名.扩展名     #移除文件,但是我不知道怎么打出"包含空格的文件名"！！！所以相关操作还是放在github desktop(github桌面端)或者git Gui(git图形界面)里比较靠谱
 
-git status    #再次查看项目的当前状态，确保所有改动文件添加到缓存
+git status -s #再次查看项目的当前简要状态，确保所有改动文件添加到缓存
 
 git commit -m 'test```'  #记录缓存内容的快照并提交注释
 
