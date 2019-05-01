@@ -63,6 +63,7 @@ git checkout develop  #手动切换到develop分支
 
 ----------------------------------
 改动内容之后：
+
 git status    #查看项目的当前状态
 
 git add *     #或者git add .添加文件到缓存
