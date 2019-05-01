@@ -1,37 +1,67 @@
 除了pull request的操作在网页上提交，其他的操作都可以脱离github网页进行。
 
+----------------------------------
+
 首先，点击 fork 项目仓库到自己帐号下，然后就可以在自己的帐号下 clone 相应的仓库。
 
 可以下载使用github desktop(github桌面端)或者git Gui(git图形界面)或者git Bash 命令行或者 git cmd 命令行克隆下载fork的项目仓库到本地。
 
 克隆一个仓库，首先必须知道仓库的地址，然后使用git clone命令克隆。Git支持多种协议，包括https，但通过ssh支持的原生git协议速度最快。
 
+点击绿色的"clone and download"按钮，复制里面的链接得到"https://github.com/你的github帐号/仓库名称.git"这样格式的https链接。
+
+如果你配置了ssh密钥，可以点下"use SSH",复制里面的链接得到"git@github.com:你的github帐号/仓库名称.git" 这样格式的https链接。
+
 ----------------------------------
-打开git Bash,输入本地已经克隆好的本地目录文件夹
+打开git Bash。
+
+如果设置了快速编辑模式，在输入命令示界面可以很方便的使用复制和粘贴（用左键选取要复制的，点右键直接就可以复制，粘贴时只需点一下右键。）设置方法：Git Bash快捷图标（桌面图标）或者在打开的窗口标题位置，右键属性-选项，把快速编辑模式勾上就可以。
+
+输入本地已经克隆好的本地目录文件夹。
 
 cd /f/code/githubtest #其中f为F盘小写，参考这个格式，调整输入本地目录文件夹的路径
 
-或者也可以直接在克隆好的本地目录文件夹右击的菜单里点击“git Bash here”,也可以github desktop(github桌面端)或者git Gui(git图形界面)里找到打开命令行的按钮，这样命令行会自动切换到本地仓库的文件夹
----------------------------------
+或者也可以直接在克隆好的本地目录文件夹右击的菜单里点击“git Bash here”。
+
+也可以github desktop(github桌面端)或者git Gui(git图形界面)里找到打开命令行的按钮，这样命令行会自动切换到本地仓库的文件夹
+
+git clone https://github.com/你的github帐号/仓库名称.git
+
+或者 
+
+git clone git@github.com:你的github帐号/仓库名称.git
+
+上述操作将拷贝该项目的master主分支，可能使用github desktop(github桌面端)或者git Gui(git图形界面)可以把其他分支也拷贝到本地。
+
+----------------------------------
 git remote -v #查看当前的远程仓库地址
+
 如果只有两行：
+
 origin https://github.com/你的github帐号/仓库名称.git(fetch)
+
 origin https://github.com/你的github帐号/仓库名称.git(push)
-需要输入
+
+需要输入：
+
 git remote add upstream https://github.com/上游的github帐号/仓库名称.git   #添加一个别名为 upstream（上游）的地址，指向之前 fork 的原仓库地址。
 
 git remote -v  #再次查看当前的远程仓库地址
 
-如果显示有四行：两行origin，upstream，说明已经成功设置远程仓库
+如果显示有四行：两行origin和两行upstream，说明已经成功设置远程仓库
 
-------
+----------------------------------
+在本地新建开发分支develop
+
 git branch develop  #新建分支develop
+
 git checkout develop  #手动切换到develop分支
-----------------
+
+----------------------------------
 
 在本地修改内容
 
-------------
+----------------------------------
 改动内容之后：
 git status    #查看项目的当前状态
 
@@ -42,12 +72,16 @@ git status    #再次查看项目的当前状态，确保所有改动文件添�
 git commit -m 'test```'  #记录缓存内容的快照并提交注释
 
 git push origin develop #推送到远端origin的develop分支
----------------------------
 
-在github网页端develop分支上发起pr到上游项目仓库，等待上游项目仓库维护者审核合并到master主线
+----------------------------------
+
+在github网页端develop分支上发起pr到上游项目仓库，等待上游项目仓库维护者审核合并到master主线。
+
 此次提交的内容结束，你可以去干其他事情了。
----------------
+
+----------------------------------
 如果过了几小时或者几天，你发现上次你提交的内容已经合并到主线之后，可能上游项目维护者和其他贡献者也做了其他内容的修改。
+
 这时候，你还想继续提交新的内容。但是在这之前，你需要手动更新自己帐号的fork项目的master分支：
 
 git checkout master  #手动切换到master分支
@@ -63,5 +97,7 @@ git checkout master   #确保手动切换到master分支
 git merge upstream/master    #合并远端上游upstream的master分支到本地的master分支
 
 git push origin master   #推送本地的master分支到远端origin的master分支
------------------
-然后开始在本地进行其他内容的修改，继续改动内容之后的操作再上传。
+
+----------------------------------
+
+然后开始在本地新建开发分支并手动切换develop，进行其他内容的修改，继续改动内容之后的操作再上传。
