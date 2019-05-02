@@ -31,13 +31,13 @@ Git Bash可以设置快速编辑模式，在输入命令示界面可以很方便
 输入以下代码：
 
 ```Bash
-git clone https://github.com/你的github帐号/仓库名称.git`
+git clone https://github.com/你的github帐号/仓库名称.git
 ```
 
 或者SSH链接：
 
 ```Bash
-`git clone git@github.com:你的github帐号/仓库名称.git`
+git clone git@github.com:你的github帐号/仓库名称.git
 ```
 
 **上述操作将拷贝该项目的master主分支，可能使用github desktop(github桌面端)或者git Gui(git图形界面)可以把其他分支也拷贝到本地。**
@@ -45,7 +45,7 @@ git clone https://github.com/你的github帐号/仓库名称.git`
 **2.如果在第一步你已经把仓库已经克隆到本地了，可以输入本地已经克隆好的本地目录文件夹来切换到工作目录。**
 
 ```Bash
-`cd /f/code/githubtest`　#其中f为F盘小写，参考这个格式，调整输入本地目录文件夹的路径,我电脑上文件夹是F:\code\github-test
+cd /f/code/githubtest　#其中f为F盘小写，参考这个格式，调整输入本地目录文件夹的路径,我电脑上文件夹是F:\code\github-test
 ```
 
 或者也可以直接在克隆好的本地目录文件夹右击的菜单里点击“git Bash here”。
@@ -57,7 +57,7 @@ git clone https://github.com/你的github帐号/仓库名称.git`
 ## **三.设置远端仓库**
 
 ```Bash
-`git remote -v`　#查看当前的远端仓库地址
+git remote -v　#查看当前的远端仓库地址
 ```
 
 如果只有两行：
@@ -69,11 +69,9 @@ origin https://github.com/你的github帐号/仓库名称.git(push)
 那么还需要输入：
 
 ```Bash
-`git remote add upstream https://github.com/上游的github帐号/仓库名称.git`　#添加一个别名为 upstream（上游）的地址，指向之前 fork 的原仓库地址。
-```
+git remote add upstream https://github.com/上游的github帐号/仓库名称.git　#添加一个别名为 upstream（上游）的地址，指向之前 fork 的原仓库地址。
 
-```Bash
-`git remote -v`　#再次查看当前的远端仓库地址
+git remote -v　#再次查看当前的远端仓库地址
 ```
 
 如果显示有四行：两行origin和两行upstream，说明已经成功设置远端仓库
@@ -83,12 +81,9 @@ origin https://github.com/你的github帐号/仓库名称.git(push)
 ## **四.在本地新建开发分支develop**
 
 ```Bash
-`git branch develop`　#新建分支develop
-```
+git branch develop　#新建分支develop
 
-```Bash
-
-`git checkout develop`　#手动切换到develop分支
+git checkout develop　#手动切换到develop分支
 ```Bash
 
 ----------------------------------
@@ -100,17 +95,17 @@ origin https://github.com/你的github帐号/仓库名称.git(push)
 ## **六.在本地改动内容之后上传到远端仓库**：
 
 ```Bash
-`git status`　#查看项目的当前状态(或者使用 -s 查看项目的当前简要状态)
+git status　#查看项目的当前状态(或者使用 -s 查看项目的当前简要状态)
 
-`git add *`　#或者git add .添加文件到缓存
+git add *　#或者git add .添加文件到缓存
 
-`git rm 文件名.扩展名`　#移除文件。如果文件名包含空格如“1 2 3.txt”，`git rm 1" "2" "3.txt`(使用 --cached 移除出缓存区但是在文件夹里保留文件，或者 -f 强制删除)
+git rm 文件名.扩展名　#移除文件。如果文件名包含空格如“1 2 3.txt”，`git rm 1" "2" "3.txt`(使用 --cached 移除出缓存区但是在文件夹里保留文件，或者 -f 强制删除)
 
-`git status -s`　#再次查看项目的当前简要状态，确保所有改动文件添加到缓存
+git status -s　#再次查看项目的当前简要状态，确保所有改动文件添加到缓存
 
-`git commit -m '注释信息'`　#记录缓存内容的快照并提交注释
+git commit -m '注释信息'　#记录缓存内容的快照并提交注释
 
-`git push origin develop`　#推送到远端origin的develop分支
+git push origin develop　#推送到远端origin的develop分支
 ```
 
 ----------------------------------
@@ -134,19 +129,19 @@ origin https://github.com/你的github帐号/仓库名称.git(push)
 **但是在这之前，你需要手动更新自己帐号的fork项目的master分支：**
 
 ```Bash
-`git checkout master`　#手动切换到master分支
+git checkout master　#手动切换到master分支
 
-`git branch -D develop`　#强制删除本地的develop分支
+git branch -D develop　#强制删除本地的develop分支
 
-`git push origin --delete develop`　#强制删除远端origin的develop分支
+git push origin --delete develop　#强制删除远端origin的develop分支
 
-`git fetch upstream`　#同步远端上游upstream到本地仓库
+git fetch upstream　#同步远端上游upstream到本地仓库
 
-`git checkout master`　#确保手动切换到master分支
+git checkout master　#确保手动切换到master分支
 
-`git merge upstream/master`　#合并远端上游upstream的master分支到本地的master分支
+git merge upstream/master　#合并远端上游upstream的master分支到本地的master分支
 
-`git push origin master`　#推送本地的master分支到远端origin的master分支
+git push origin master　#推送本地的master分支到远端origin的master分支
 ```
 
 ----------------------------------
