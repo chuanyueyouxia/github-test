@@ -84,7 +84,7 @@ git remote -v　#再次查看当前的远端仓库地址
 git branch develop　#新建分支develop
 
 git checkout develop　#手动切换到develop分支
-```Bash
+```
 
 ----------------------------------
 
