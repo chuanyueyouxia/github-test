@@ -40,7 +40,7 @@ git clone https://github.com/你的github帐号/仓库名称.git
 git clone git@github.com:你的github帐号/仓库名称.git
 ```
 
-**上述操作将拷贝该项目的master主分支，可能使用github desktop(github桌面端)或者git Gui(git图形界面)可以把其他分支也拷贝到本地。**
+**上述操作将拷贝该项目的master主分支，可能使用github desktop(github桌面端)或者git Gui(git图形界面)或者TortoiseGit可以把其他分支也拷贝到本地。**
 
 **2.如果在第一步你已经把仓库已经克隆到本地了，可以输入本地已经克隆好的本地目录文件夹来切换到工作目录。**
 
