@@ -1,4 +1,4 @@
-# Github操作指南之如何在网页端上传mod
+　　# Github fork工作流之如何使用github网页端上传mod的基本操作指南
 
 　　**这篇教程介绍：如何用github网页端上传cataclysmdda的mod到Mod分享平台。**
 
@@ -6,7 +6,9 @@
 
 　　1、首先要注册一个github帐号，如已有帐号请登录。
 
-　　2、用浏览器打开https://github.com/cddamods/cddamods.github.io，如图1点击fork，把这个项目仓库的副本复制到自己帐号里。
+　　2、用浏览器打开https://github.com/cddamods/cddamods.github.io 
+
+　　如图1点击fork，把这个项目仓库的副本复制到自己帐号里。
  
 ![图1](https://github.com/chuanyueyouxia/github-test/blob/master/image/image001.png "图1")
 　　　　　　　　　　　　　　　　　　　　　　　　　　　　图1
@@ -52,7 +54,7 @@
 ![图9](https://github.com/chuanyueyouxia/github-test/blob/master/image/image009.png "图9") 
 　　　　　　　　　　　　　　　　　　　　　　　　　　　　图9
 
-　　如图9编辑好后，同样如图7那样在Commit changes里输入说明，确定。
+　　如图9编辑好后，同样像图7那样在Commit changes里输入说明，确定。
 
  
 ![图10](https://github.com/chuanyueyouxia/github-test/blob/master/image/image010.png "图10") 
@@ -84,7 +86,7 @@
 
 　　"同步你的fork"有2种有效方法：
 
-　　方法1：直接在网页端删除你fork的项目，再重新fork。(这无疑是最暴力有效省事的方式。)
+　　方法1：直接在网页端删除你fork的项目，再重新fork。(这无疑是最暴力有效省事的方式)删除操作如下面3张图：
 
 ![图13](https://github.com/chuanyueyouxia/github-test/blob/master/image/image013.png "图13") 
 　　　　　　　　　　　　　　　　　　　　　　　　　　　　图13
@@ -98,3 +100,9 @@
 　　方法2：使用git命令行同步你fork的项目，需要安装git。
 
 　　参考：[github笔记一：保持fork之后的项目和上游同步 - 简书](https://www.jianshu.com/p/43dfe8d59b70)
+
+---------------------------------
+
+　　*另外，其实还有一种手动更新fork的方法：使用pull request从原项目仓库反向推送到fork仓库。*
+
+　　**但是这样操作，好像会让之后的commit记录里出现重复的记录，所以不建议使用。**
