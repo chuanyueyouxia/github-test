@@ -6,7 +6,7 @@
 
 ----------------------------------
 
-##**一.fork仓库并且克隆到本地**
+## **一.fork仓库并且克隆到本地**
 
 首先，点击 fork 项目仓库到自己帐号下，然后就可以在自己的帐号下 clone 相应的仓库。
 
@@ -20,7 +20,7 @@
 
 ----------------------------------
 
-##**二.打开git命令行**
+## **二.打开git命令行**
 
 Git Bash可以设置快速编辑模式，在输入命令示界面可以很方便的使用复制和粘贴(用左键选取要复制的，点右键直接就可以复制，粘贴时只需点一下右键。)
 
@@ -36,13 +36,17 @@ git clone https://github.com/你的github帐号/仓库名称.git`
 
 或者SSH链接：
 
+```Bash
 `git clone git@github.com:你的github帐号/仓库名称.git`
+```
 
 **上述操作将拷贝该项目的master主分支，可能使用github desktop(github桌面端)或者git Gui(git图形界面)可以把其他分支也拷贝到本地。**
 
 **2.如果在第一步你已经把仓库已经克隆到本地了，可以输入本地已经克隆好的本地目录文件夹来切换到工作目录。**
 
+```Bash
 `cd /f/code/githubtest`　#其中f为F盘小写，参考这个格式，调整输入本地目录文件夹的路径,我电脑上文件夹是F:\code\github-test
+```
 
 或者也可以直接在克隆好的本地目录文件夹右击的菜单里点击“git Bash here”。
 
@@ -50,9 +54,11 @@ git clone https://github.com/你的github帐号/仓库名称.git`
 
 ----------------------------------
 
-##**三.设置远端仓库**
+## **三.设置远端仓库**
 
+```Bash
 `git remote -v`　#查看当前的远端仓库地址
+```
 
 如果只有两行：
 
@@ -62,28 +68,38 @@ origin https://github.com/你的github帐号/仓库名称.git(push)
 
 那么还需要输入：
 
+```Bash
 `git remote add upstream https://github.com/上游的github帐号/仓库名称.git`　#添加一个别名为 upstream（上游）的地址，指向之前 fork 的原仓库地址。
+```
 
+```Bash
 `git remote -v`　#再次查看当前的远端仓库地址
+```
 
 如果显示有四行：两行origin和两行upstream，说明已经成功设置远端仓库
 
 ----------------------------------
 
-##**四.在本地新建开发分支develop**
+## **四.在本地新建开发分支develop**
 
+```Bash
 `git branch develop`　#新建分支develop
+```
+
+```Bash
 
 `git checkout develop`　#手动切换到develop分支
+```Bash
 
 ----------------------------------
 
-##**五.在本地修改内容(包括新增、删除、修改)**
+## **五.在本地修改内容(包括新增、删除、修改)**
 
 ----------------------------------
 
-##**六.在本地改动内容之后上传到远端仓库**：
+## **六.在本地改动内容之后上传到远端仓库**：
 
+```Bash
 `git status`　#查看项目的当前状态(或者使用 -s 查看项目的当前简要状态)
 
 `git add *`　#或者git add .添加文件到缓存
@@ -95,10 +111,11 @@ origin https://github.com/你的github帐号/仓库名称.git(push)
 `git commit -m '注释信息'`　#记录缓存内容的快照并提交注释
 
 `git push origin develop`　#推送到远端origin的develop分支
+```
 
 ----------------------------------
 
-##**七.发起pull request**：
+## **七.发起pull request**：
 
 在github网页端develop分支上发起pr到上游项目仓库，等待上游项目仓库维护者审核合并到master主线。
 
@@ -106,7 +123,7 @@ origin https://github.com/你的github帐号/仓库名称.git(push)
 
 ----------------------------------
 
-##**八.手动更新自己帐号的fork项目的master分支**：
+## **八.手动更新自己帐号的fork项目的master分支**：
 
 如果过了几小时或者几天，你发现上次你提交的内容已经合并到主线之后，上游项目维护者和其他贡献者也可能做了其他内容的修改并合并到了主线。
 
@@ -116,6 +133,7 @@ origin https://github.com/你的github帐号/仓库名称.git(push)
 
 **但是在这之前，你需要手动更新自己帐号的fork项目的master分支：**
 
+```Bash
 `git checkout master`　#手动切换到master分支
 
 `git branch -D develop`　#强制删除本地的develop分支
@@ -129,6 +147,7 @@ origin https://github.com/你的github帐号/仓库名称.git(push)
 `git merge upstream/master`　#合并远端上游upstream的master分支到本地的master分支
 
 `git push origin master`　#推送本地的master分支到远端origin的master分支
+```
 
 ----------------------------------
 
