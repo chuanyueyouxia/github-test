@@ -8,6 +8,18 @@ https://github.com/oldratlee/translations/tree/master/git-workflows-and-tutorial
 GitHub 第一坑：换行符自动转换 - 文章 - 伯乐在线
 http://blog.jobbole.com/46200/
 
+GitHub 上的 12 个骚操作
+http://www.sohu.com/a/201083491_668770
+ 
+开源项目维护者最佳实践 | GitHub 开源指南系列之五 - 简书
+https://www.jianshu.com/p/ef2396438343
+
+做开源项目的维护者，是怎样一种体验？
+https://baijiahao.baidu.com/s?id=1589611290622216550&wfr=spider&for=pc
+
+Github美化-Travis与Codecov入门 - 无名山丘，崛起成峰 - CSDN博客
+https://blog.csdn.net/accepthjp/article/details/80405930
+
 ---------------------------------------
 基础：
 
