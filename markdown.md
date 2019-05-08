@@ -145,6 +145,4 @@ Markdown 的目的是使用纯文本对文字进行编排，此处为通用 Mard
 `\`：将此段代码忽略，比如 `[\]\` 不会被识别为链接替代文本而是识别为半角方括号
 
 ### LICENSE
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a> Except where otherwise noted, all contents in this site is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 International License</a>.
-
-###### [啊啦 乃手滑了](..\index.html#table-of-contents)
+`````````````````
