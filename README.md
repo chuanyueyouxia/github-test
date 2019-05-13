@@ -8,6 +8,12 @@ https://github.com/oldratlee/translations/tree/master/git-workflows-and-tutorial
 GitHub 第一坑：换行符自动转换 - 文章 - 伯乐在线
 http://blog.jobbole.com/46200/
 
+组织项目仓库 GitHub 实现多人协同提交代码并且权限分组管理 - 赵彦军 - 博客园
+http://www.cnblogs.com/zhaoyanjun/p/5882784.html
+
+个人项目仓库 github 快速实现多人协作 - 赵彦军 - 博客园
+http://www.cnblogs.com/zhaoyanjun/p/5829142.html
+
 GitHub 上的 12 个骚操作
 http://www.sohu.com/a/201083491_668770
  
