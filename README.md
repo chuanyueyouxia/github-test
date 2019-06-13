@@ -86,8 +86,14 @@ http://try.github.io/
 我是如何利用Github Pages搭建起我的博客，细数一路的坑 - JackyRoc - 博客园
 https://www.cnblogs.com/jackyroc/p/7681938.html
 
+手把手教你使用Hexo + Github Pages搭建个人独立博客 - 令狐葱@Web前端笔记 - SegmentFault 思否
+https://segmentfault.com/a/1190000004947261
+
 使用hexo+github搭建免费个人博客详细教程 - 我是小茗同学 - 博客园
 https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html
+
+【持续更新】最全Hexo博客搭建+主题优化+插件配置+常用操作+错误分析 | 遇见西门
+https://www.simon96.online/2018/10/12/hexo-tutorial/
 
 Github搭建个人博客（2018最新版,亲测） - 徐代龙的技术专栏 - CSDN博客
 https://blog.csdn.net/xudailong_blog/article/details/78762262
@@ -97,4 +103,5 @@ https://www.jianshu.com/p/08200e0ac81c
 
 hexo-theme-jsimple 博客主题 
 https://github.com/tangkunyin/hexo-theme-jsimple
+
 
