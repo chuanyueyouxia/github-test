@@ -1,4 +1,10 @@
 置顶：
+菜鸟教程
+https://www.runoob.com/
+
+开发者手册 - 云+社区 - 腾讯云
+https://cloud.tencent.com/developer/devdocs
+
 在w3school,你可以找到你所需要的所有的网站建设教程。 从基础的 HTML 到 CSS,乃至进阶的 XML、SQL、JS、PHP 和 ASP.NET
 http://www.w3school.com.cn/
 
@@ -113,3 +119,37 @@ https://www.itny.cn/2407.html
 天作之和: github pages + prose.io | LI, Yu from 1981
 http://liyu1981.github.io/github-prose-blog/
 
+Jekyll Jacman模板
+https://simpleyyt.com/jekyll-jacman/
+
+可以非常方便地写Jekyll博文
+http://prose.io
+
+或Jekyll Editor
+https://chrome.google.com/webstore/detail/jekyll-editor/dfdkgbhjmllemfblfoohhehdigokocme
+
+写 Jekyll 博客的正确姿势
+http://simpleyyt.github.io/2015/09/21/tools-for-jekyll
+
+Windows下git连接GitHub（github.com）、码市（coding.net）、码云（gitee.com）
+https://blog.csdn.net/li532331251/article/details/78492437
+
+Coding Pages-CODING
+https://coding.net/help/doc/pages
+
+静态页托管到Coding Page上的小技巧
+https://www.jimoe.cn/archives/wiki-push-to-coding-page.html
+
+Cloud Studio - 开启云端开发模式 WebIDE
+https://studio.dev.tencent.com/
+
+实时协同编辑 – 腾讯云开发者平台帮助中心
+https://dev.tencent.com/help/cloud-studio/collaborate
+
+运行环境的切换、发布和分享 – 腾讯云开发者平台帮助中心
+https://dev.tencent.com/help/cloud-studio/environment
+
+代码编辑区使用指南 – 腾讯云开发者平台帮助中心
+https://dev.tencent.com/help/cloud-studio/editor-usage
+
+https://discourse.cataclysmdda.org/t/guide-to-adding-new-content-to-cdda-for-first-time-modders
