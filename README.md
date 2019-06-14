@@ -5,6 +5,12 @@ https://www.runoob.com/
 开发者手册 - 云+社区 - 腾讯云
 https://cloud.tencent.com/developer/devdocs
 
+处理git中的文件重命名 - 码客
+https://oomake.com/question/567537
+
+github - git 怎样删除远程仓库的某次错误提交？ - SegmentFault 思否
+https://segmentfault.com/q/1010000002898735
+
 彻底清除Github上某个文件的历史操作记录（亲测有效） - 至道无难，唯嫌拣择。 - CSDN博客
 https://blog.csdn.net/talice/article/details/82431468
 
