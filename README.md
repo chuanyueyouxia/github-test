@@ -152,4 +152,6 @@ https://dev.tencent.com/help/cloud-studio/environment
 代码编辑区使用指南 – 腾讯云开发者平台帮助中心
 https://dev.tencent.com/help/cloud-studio/editor-usage
 
+cdda mod作者教程论坛版
 https://discourse.cataclysmdda.org/t/guide-to-adding-new-content-to-cdda-for-first-time-modders
+
