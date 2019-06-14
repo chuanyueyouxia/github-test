@@ -104,4 +104,12 @@ https://www.jianshu.com/p/08200e0ac81c
 hexo-theme-jsimple 博客主题 
 https://github.com/tangkunyin/hexo-theme-jsimple
 
+利用 GitHub Pages 快速搭建个人博客 - 简书
+https://www.jianshu.com/p/e68fba58f75c
+
+GithubPages+Prose搭建一个静态博客 | 好IT
+https://www.itny.cn/2407.html
+
+天作之和: github pages + prose.io | LI, Yu from 1981
+http://liyu1981.github.io/github-prose-blog/
 
