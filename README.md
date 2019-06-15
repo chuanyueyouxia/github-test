@@ -161,6 +161,26 @@ https://dev.tencent.com/help/cloud-studio/environment
 代码编辑区使用指南 – 腾讯云开发者平台帮助中心
 https://dev.tencent.com/help/cloud-studio/editor-usage
 
+Jekyll Themes  http://jekyllthemes.org/
+
+十分钟搭建个人网站：Jekyll主题BoHu - 天道总司 - 博客园  https://www.cnblogs.com/zhaoyuxiang/p/5437125.html
+
+Jekyll 静态博客实现搜索功能 - 云+社区 - 腾讯云  https://cloud.tencent.com/developer/article/1119290
+
+为Jekyll+GitHub Pages添加全文搜索功能-云栖社区-阿里云  https://yq.aliyun.com/articles/703581?spm=a2c4e.11155472.0.0.546829f2LJIBec
+
+Jekyll主题收藏 - GarfieldEr007的专栏 - CSDN博客  https://blog.csdn.net/garfielder007/article/details/82875394
+
+全网最清晰的Jekyll+Github搭建个人博客-云栖社区-阿里云  https://yq.aliyun.com/articles/640926?spm=a2c4e.11155472.0.0.546829f2XRqZQt
+
+如何使用Jekyll + GitHub page搭建个人网站 - 简书  https://www.jianshu.com/p/2b5f7295c84f
+
+github page+jekyll构建博客的解决方案 - 云+社区 - 腾讯云  https://cloud.tencent.com/developer/article/1426716
+
+Jekyll-Admin-Mac 开发纪要-左侧菜单栏 - 云+社区 - 腾讯云  https://cloud.tencent.com/developer/article/1200669
+
+Simpleyyt/jekyll-theme-next: Elegant theme for Jekyll.  https://github.com/Simpleyyt/jekyll-theme-next
+
 cdda mod作者教程论坛版
 https://discourse.cataclysmdda.org/t/guide-to-adding-new-content-to-cdda-for-first-time-modders
 
