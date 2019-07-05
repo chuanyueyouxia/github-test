@@ -8,6 +8,9 @@ https://c.runoob.com/front-end/53
 开发者手册 - 云+社区 - 腾讯云
 https://cloud.tencent.com/developer/devdocs
 
+在Git项目中定义 .gitignore 文件
+https://www.jianshu.com/p/74bd0ceb6182
+
 处理git中的文件重命名 - 码客
 https://oomake.com/question/567537
 
