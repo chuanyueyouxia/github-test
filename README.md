@@ -5,6 +5,9 @@ https://www.runoob.com/
 在线json格式校验工具
 https://c.runoob.com/front-end/53
 
+ Web 开发技术 JavaScript JavaScript 参考文档 JavaScript 标准库 JSON JSON.parse()
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
+
 开发者手册 - 云+社区 - 腾讯云
 https://cloud.tencent.com/developer/devdocs
 
