@@ -14,6 +14,12 @@ https://cloud.tencent.com/developer/devdocs
 在Git项目中定义 .gitignore 文件
 https://www.jianshu.com/p/74bd0ceb6182
 
+warning: LF will be replaced by CRLF in 解决办法
+https://www.cnblogs.com/keystone/p/10700520.html
+
+Windows下使用Git add时警告：warning：LF will be replaced by CRLF in ××××.××如何解决？
+https://www.2cto.com/kf/201802/723171.html
+
 处理git中的文件重命名 - 码客
 https://oomake.com/question/567537
 
