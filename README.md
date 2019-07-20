@@ -11,6 +11,54 @@ https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects
 开发者手册 - 云+社区 - 腾讯云
 https://cloud.tencent.com/developer/devdocs
 
+-----------------------------------------------
+
+好用的 JS Markdown 编辑器有哪些？（2018）
+
+https://www.bilibili.com/video/av31875334
+
+https://github.com/lepture/editor
+
+http://github.com/nhnent/tui.editor
+
+https://github.com/pandao/editor.md
+
+https://github.com/Canner/canner-slate-editor
+
+https://github.com/sofish/pen
+
+https://github.com/Houfeng/mditor
+
+https://github.com/bh-lay/mditor
+
+-----------------------------------------------
+
+2018 流行的富文本编辑器推荐，你喜欢哪一款？
+
+https://www.bilibili.com/video/av31806647
+
+https://github.com/tinymce/tinymce
+
+https://github.com/ckeditor/ckeditor5
+
+https://github.com/yabwe/medium-editor
+
+https://github.com/mycolorway/simditor
+
+https://github.com/summernote/summernote
+
+https://github.com/wangfupeng1988/wangEditor
+
+http://kindeditor.net/demo.php
+
+https://github.com/facebook/draft-js
+
+https://github.com/Alex-D/Trumbowyg
+
+https://github.com/xdan/jodit
+
+------------------------------------------
+
 在Git项目中定义 .gitignore 文件
 https://www.jianshu.com/p/74bd0ceb6182
 
