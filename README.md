@@ -11,6 +11,12 @@ https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects
 开发者手册 - 云+社区 - 腾讯云
 https://cloud.tencent.com/developer/devdocs
 
+Bootstrap （当前版本 v3.3.7）提供以下几种方式帮你快速上手
+https://v3.bootcss.com/getting-started/
+
+jsdelivr提供的CDN加速服务
+https://www.jsdelivr.com/
+
 -----------------------------------------------
 
 好用的 JS Markdown 编辑器有哪些？（2018）
