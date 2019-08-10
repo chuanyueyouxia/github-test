@@ -17,6 +17,12 @@ https://v3.bootcss.com/getting-started/
 jsdelivr提供的CDN加速服务
 https://www.jsdelivr.com/
 
+个人博客github Pages重构 -文章附多篇资料链接
+https://huangchanghuan.github.io/life/2016/08/19/modifystyle
+
+jekyll中文说明
+http://jekyllcn.com/docs/home/
+
 -----------------------------------------------
 
 好用的 JS Markdown 编辑器有哪些？（2018）
