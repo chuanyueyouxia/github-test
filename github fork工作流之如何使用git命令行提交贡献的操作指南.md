@@ -97,6 +97,8 @@ git checkout develop　#手动切换到develop分支
 ```Bash
 git status　#查看项目的当前状态(或者使用 -s 查看项目的当前简要状态)
 
+git mv 1" "2" "3.txt 123.txt(1 2 3.txt重命名为123.txt)
+
 git add *　#或者git add .添加文件到缓存
 
 git rm 文件名.扩展名　#移除文件。如果文件名包含空格如“1 2 3.txt”，`git rm 1" "2" "3.txt`(使用 --cached 移除出缓存区但是在文件夹里保留文件，或者 -f 强制删除)
