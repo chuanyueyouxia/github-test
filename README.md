@@ -271,3 +271,17 @@ Simpleyyt/jekyll-theme-next: Elegant theme for Jekyll.  https://github.com/Simpl
 cdda mod作者教程论坛版
 https://discourse.cataclysmdda.org/t/guide-to-adding-new-content-to-cdda-for-first-time-modders
 
+用户中心 · jinpu-team/eatgoods Wiki · GitHub
+https://github.com/jinpu-team/eatgoods/wiki/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83
+
+Connect/login - 微博API
+https://open.weibo.com/wiki/Connect/login
+
+网站接入 - 腾讯开放平台
+https://wiki.open.qq.com/wiki/%E7%BD%91%E7%AB%99%E6%8E%A5%E5%85%A5
+
+准备工作 | 微信开放文档
+https://developers.weixin.qq.com/doc/oplatform/Website_App/WeChat_Login/Wechat_Login.html
+
+一键登录--ShowDoc
+https://www.showdoc.cc/266673583622575?page_id=1519654365251811
