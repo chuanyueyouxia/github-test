@@ -285,3 +285,5 @@ https://developers.weixin.qq.com/doc/oplatform/Website_App/WeChat_Login/Wechat_L
 
 一键登录--ShowDoc
 https://www.showdoc.cc/266673583622575?page_id=1519654365251811
+
+最好用的lua编辑器--------emmylua使用汇总 - 三页菌 - 博客园  https://www.cnblogs.com/sanyejun/p/9673198.html
