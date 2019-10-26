@@ -230,6 +230,18 @@ http://simpleyyt.github.io/2015/09/21/tools-for-jekyll
 Windows下git连接GitHub（github.com）、码市（coding.net）、码云（gitee.com）
 https://blog.csdn.net/li532331251/article/details/78492437
 
+Documentation | kramdown  https://kramdown.gettalong.org/documentation.html
+
+Rouge  http://rouge.jneen.net/
+
+Basic writing and formatting syntax - GitHub Help  https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
+
+GitHub Flavored Markdown Spec  https://github.github.com/gfm/
+
+Mastering Markdown · GitHub Guides  https://guides.github.com/features/mastering-markdown/
+
+Working with advanced formatting - GitHub Help  https://help.github.com/en/github/writing-on-github/working-with-advanced-formatting
+
 Coding Pages-CODING
 https://coding.net/help/doc/pages
 
