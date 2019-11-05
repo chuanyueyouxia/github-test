@@ -185,6 +185,12 @@ http://try.github.io/
 -----------------------
 以下是使用GitHub搭建静态网页博客的说明：
 
+本地jekyll如何使用中文路径 - 云+社区 - 腾讯云
+https://cloud.tencent.com/developer/article/1368592
+
+解决jekyll无法本地预览中文文件的问题 - 尹傲雄的博客 - CSDN博客
+https://blog.csdn.net/yinaoxiong/article/details/54025482
+
 我是如何利用Github Pages搭建起我的博客，细数一路的坑 - JackyRoc - 博客园
 https://www.cnblogs.com/jackyroc/p/7681938.html
 
