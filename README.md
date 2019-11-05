@@ -191,6 +191,12 @@ https://cloud.tencent.com/developer/article/1368592
 解决jekyll无法本地预览中文文件的问题 - 尹傲雄的博客 - CSDN博客
 https://blog.csdn.net/yinaoxiong/article/details/54025482
 
+Tags Filters | Jekyll • Simple, blog-aware, static sites
+https://jekyllrb.com/docs/liquid/tags/
+
+Permalinks | Jekyll • Simple, blog-aware, static sites
+https://jekyllrb.com/docs/permalinks/
+
 我是如何利用Github Pages搭建起我的博客，细数一路的坑 - JackyRoc - 博客园
 https://www.cnblogs.com/jackyroc/p/7681938.html
 
