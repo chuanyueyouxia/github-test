@@ -153,6 +153,8 @@ https://blog.csdn.net/qq_26787115/article/details/52133008
 论github客户端的使用与团队协作 - monsterLin - 博客园
 https://www.cnblogs.com/boy1025/p/4492538.html
 
+（2019.7.27已解决）Github网页上如何创建、重命名文件夹 - 漫步量化 - CSDN博客  https://blog.csdn.net/the_time_runner/article/details/97518582
+
 -----------------------------------------------
 进阶：
 
