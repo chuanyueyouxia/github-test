@@ -199,6 +199,9 @@ https://jekyllrb.com/docs/liquid/tags/
 Permalinks | Jekyll • Simple, blog-aware, static sites
 https://jekyllrb.com/docs/permalinks/
 
+欢迎 - Jekyll • 简单静态博客网站生成器
+http://jekyllcn.com/docs/home/
+
 我是如何利用Github Pages搭建起我的博客，细数一路的坑 - JackyRoc - 博客园
 https://www.cnblogs.com/jackyroc/p/7681938.html
 
